@@ -1,5 +1,5 @@
 # How to run
-$ python determinant.py <M>
+$ python determinant.py M
 
 ## Note
 The program generates a random M×M matrix for algorithm evaluation.
