@@ -51,7 +51,7 @@ def main(size: int):
     a = [[random.randint(-10, 10) for _ in range(size)] for _ in range(size)]
     a_np = np.array(a)
     print(a_np)
-    print(a_np.shape)
+    print("Shape:", a_np.shape)
     print("Det:", det(a))
 
 
